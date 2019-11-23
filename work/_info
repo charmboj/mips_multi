@@ -1,0 +1,195 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Frex\Documents\GitHub
+valu
+!i10b 1
+Z1 !s100 IddBElfgmJ8bh_dbE??_10
+Z2 IMEE4n5Lgk02^BOUooZW]f0
+Z3 VIF80fRe@af5f=R4Dk6b001
+Z4 dC:\Users\Frex\Documents\GitHub\mips_multi
+w1574487561
+Z5 8C:/Users/Frex/Documents/GitHub/mips_multi/alu.v
+Z6 FC:/Users/Frex/Documents/GitHub/mips_multi/alu.v
+L0 1
+Z7 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1574487565.347000
+!s107 C:/Users/Frex/Documents/GitHub/mips_multi/alu.v|
+Z8 !s90 -reportprogress|300|-work|work|C:/Users/Frex/Documents/GitHub/mips_multi/alu.v|
+!s101 -O0
+Z9 o-work work -O0
+valu_tb
+Z10 !s100 MfE;28P:>=O1oKOZin[>A1
+Z11 IUZ_i4DV^RZ5AD<7gKm@K@1
+Z12 VL;=kgzZ7GJ2Reg7Z1GkmR2
+R4
+Z13 w1574484207
+Z14 8C:/Users/Frex/Documents/GitHub/mips_multi/alu_tb.v
+Z15 FC:/Users/Frex/Documents/GitHub/mips_multi/alu_tb.v
+L0 2
+R7
+r1
+31
+Z16 !s90 -reportprogress|300|-work|work|C:/Users/Frex/Documents/GitHub/mips_multi/alu_tb.v|
+R9
+Z17 !s108 1574487470.495000
+Z18 !s107 C:/Users/Frex/Documents/GitHub/mips_multi/alu_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valudec
+Z19 !s100 m:=O;7C<Rj1dMe0B1J^Ol1
+Z20 IFXPdem[>95HUBJMG>CS5M2
+Z21 V<aiTkOS0WF`;05@=fKob71
+R4
+Z22 w1574445233
+Z23 8C:/Users/Frex/Documents/GitHub/mips_multi/aludec.v
+Z24 FC:/Users/Frex/Documents/GitHub/mips_multi/aludec.v
+L0 1
+R7
+r1
+31
+Z25 !s90 -reportprogress|300|-work|work|C:/Users/Frex/Documents/GitHub/mips_multi/aludec.v|
+R9
+Z26 !s108 1574487470.240000
+Z27 !s107 C:/Users/Frex/Documents/GitHub/mips_multi/aludec.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcontroller
+Z28 !s100 JgS1a=cH=0Tn]?5]:l;_53
+Z29 IJK;_=T<nZIPTcPnJ=5j4G0
+Z30 V@_l>i_cVShYi5LMdC=C0c0
+R4
+Z31 w1574450036
+Z32 8C:/Users/Frex/Documents/GitHub/mips_multi/controller.v
+Z33 FC:/Users/Frex/Documents/GitHub/mips_multi/controller.v
+L0 1
+R7
+r1
+31
+Z34 !s90 -reportprogress|300|-work|work|C:/Users/Frex/Documents/GitHub/mips_multi/controller.v|
+R9
+Z35 !s108 1574487468.581000
+Z36 !s107 C:/Users/Frex/Documents/GitHub/mips_multi/controller.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcontroller_tb
+Z37 !s100 =_mY:BbJ1N3=eIiUcA>l63
+Z38 I?4RZocLkaPg<mOJ<SN?:X3
+Z39 VXjLFUflKQlK1WTZm==8l41
+R4
+Z40 w1574449528
+Z41 8C:/Users/Frex/Documents/GitHub/mips_multi/controller_tb.v
+Z42 FC:/Users/Frex/Documents/GitHub/mips_multi/controller_tb.v
+L0 1
+R7
+r1
+31
+Z43 !s90 -reportprogress|300|-work|work|C:/Users/Frex/Documents/GitHub/mips_multi/controller_tb.v|
+R9
+Z44 !s108 1574487470.920000
+Z45 !s107 C:/Users/Frex/Documents/GitHub/mips_multi/controller_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdatapath
+Z46 !s100 Ibfjd51<9_PGJ:8dX=A6P1
+Z47 IFolgbAOXRF:Zn:>2fP4B?0
+Z48 VeeMj?[BC5C0U[N4e_WiIR3
+R4
+Z49 w1574445801
+Z50 8C:/Users/Frex/Documents/GitHub/mips_multi/datapath.v
+Z51 FC:/Users/Frex/Documents/GitHub/mips_multi/datapath.v
+L0 1
+R7
+r1
+31
+Z52 !s90 -reportprogress|300|-work|work|C:/Users/Frex/Documents/GitHub/mips_multi/datapath.v|
+R9
+Z53 !s108 1574487468.936000
+Z54 !s107 C:/Users/Frex/Documents/GitHub/mips_multi/datapath.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmaindec
+Z55 !s100 9^U_lWo[=H<94CEIi82`:0
+Z56 I@a1d<7@CzJRQVijQNjXJ=1
+Z57 VGLH?7XOkWDVCAG14776eU0
+R4
+Z58 w1574450235
+Z59 8C:/Users/Frex/Documents/GitHub/mips_multi/maindec.v
+Z60 FC:/Users/Frex/Documents/GitHub/mips_multi/maindec.v
+L0 1
+R7
+r1
+31
+Z61 !s90 -reportprogress|300|-work|work|C:/Users/Frex/Documents/GitHub/mips_multi/maindec.v|
+R9
+Z62 !s108 1574487472.745000
+Z63 !s107 C:/Users/Frex/Documents/GitHub/mips_multi/maindec.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmemory
+Z64 IlLOEb_5HGnLTPzXF;FhR31
+Z65 VWo2gT7B:4D5PXl4;FcVJI1
+R4
+Z66 w1574184960
+Z67 8C:/Users/Frex/Documents/GitHub/mips_multi/memory.v
+Z68 FC:/Users/Frex/Documents/GitHub/mips_multi/memory.v
+L0 1
+R7
+r1
+31
+R9
+Z69 !s100 7i`kF8hnHUccY6bfjCX?A3
+Z70 !s108 1574185406.008000
+Z71 !s107 C:/Users/Frex/Documents/GitHub/mips_multi/memory.v|
+Z72 !s90 -reportprogress|300|-work|work|C:/Users/Frex/Documents/GitHub/mips_multi/memory.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmips_multi
+Z73 !s100 AYhGTj_l:dmN8iJRZEUAa2
+Z74 I:DC_YG>F_Z[4kShdno<3Y0
+Z75 VHD7lNB3[V[0RkK_H8b2T^0
+R4
+Z76 w1574448518
+Z77 8C:/Users/Frex/Documents/GitHub/mips_multi/mips_multi.v
+Z78 FC:/Users/Frex/Documents/GitHub/mips_multi/mips_multi.v
+L0 1
+R7
+r1
+31
+Z79 !s90 -reportprogress|300|-work|work|C:/Users/Frex/Documents/GitHub/mips_multi/mips_multi.v|
+R9
+Z80 !s108 1574487468.261000
+Z81 !s107 C:/Users/Frex/Documents/GitHub/mips_multi/mips_multi.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vregister_file
+Z82 !s100 0@;k?4kz[MCH;b9m0l<BR0
+Z83 IH]bz38kG?@VBIklh[cSKM1
+Z84 Vmmc2lag:T]^^>:n;FCg_@0
+R4
+Z85 w1574447705
+Z86 8C:/Users/Frex/Documents/GitHub/mips_multi/register_file.v
+Z87 FC:/Users/Frex/Documents/GitHub/mips_multi/register_file.v
+L0 1
+R7
+r1
+31
+Z88 !s90 -reportprogress|300|-work|work|C:/Users/Frex/Documents/GitHub/mips_multi/register_file.v|
+R9
+Z89 !s108 1574487469.695000
+Z90 !s107 C:/Users/Frex/Documents/GitHub/mips_multi/register_file.v|
+!i10b 1
+!s85 0
+!s101 -O0

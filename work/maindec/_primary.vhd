@@ -1,0 +1,60 @@
+library verilog;
+use verilog.vl_types.all;
+entity maindec is
+    generic(
+        r_type          : vl_logic_vector(0 to 5) := (Hi0, Hi0, Hi0, Hi0, Hi0, Hi0);
+        lw              : vl_logic_vector(0 to 5) := (Hi1, Hi0, Hi0, Hi0, Hi1, Hi1);
+        sw              : vl_logic_vector(0 to 5) := (Hi1, Hi0, Hi1, Hi0, Hi1, Hi1);
+        beq             : vl_logic_vector(0 to 5) := (Hi0, Hi0, Hi0, Hi1, Hi0, Hi0);
+        addi            : vl_logic_vector(0 to 5) := (Hi0, Hi0, Hi1, Hi0, Hi0, Hi0);
+        j               : vl_logic_vector(0 to 5) := (Hi0, Hi0, Hi0, Hi0, Hi1, Hi0);
+        s0              : vl_logic_vector(0 to 14) := (Hi1, Hi0, Hi1, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi1, Hi0, Hi0, Hi0, Hi0);
+        s1              : vl_logic_vector(0 to 14) := (Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi1, Hi1, Hi0, Hi0, Hi0, Hi0);
+        s2              : vl_logic_vector(0 to 14) := (Hi0, Hi0, Hi0, Hi0, Hi1, Hi0, Hi0, Hi0, Hi0, Hi1, Hi0, Hi0, Hi0, Hi0, Hi0);
+        s3              : vl_logic_vector(0 to 14) := (Hi0, Hi0, Hi0, Hi0, Hi1, Hi0, Hi1, Hi0, Hi0, Hi1, Hi0, Hi0, Hi0, Hi0, Hi0);
+        s4              : vl_logic_vector(0 to 14) := (Hi0, Hi0, Hi0, Hi1, Hi1, Hi0, Hi1, Hi1, Hi0, Hi1, Hi0, Hi0, Hi0, Hi0, Hi0);
+        s5              : vl_logic_vector(0 to 14) := (Hi0, Hi1, Hi0, Hi0, Hi1, Hi0, Hi0, Hi0, Hi0, Hi1, Hi0, Hi0, Hi0, Hi0, Hi0);
+        s6              : vl_logic_vector(0 to 14) := (Hi0, Hi0, Hi0, Hi0, Hi1, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi1, Hi0);
+        s7              : vl_logic_vector(0 to 14) := (Hi0, Hi0, Hi0, Hi1, Hi1, Hi0, Hi0, Hi0, Hi1, Hi0, Hi0, Hi0, Hi0, Hi1, Hi0);
+        s8              : vl_logic_vector(0 to 14) := (Hi0, Hi0, Hi0, Hi0, Hi1, Hi1, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi1, Hi0, Hi1);
+        s9              : vl_logic_vector(0 to 14) := (Hi0, Hi0, Hi0, Hi0, Hi1, Hi0, Hi0, Hi0, Hi0, Hi1, Hi0, Hi0, Hi0, Hi0, Hi0);
+        s10             : vl_logic_vector(0 to 14) := (Hi0, Hi0, Hi0, Hi1, Hi1, Hi0, Hi0, Hi0, Hi0, Hi1, Hi0, Hi0, Hi0, Hi0, Hi0);
+        s11             : vl_logic_vector(0 to 14) := (Hi1, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi1, Hi1, Hi1, Hi0, Hi0, Hi0)
+    );
+    port(
+        clk             : in     vl_logic;
+        reset           : in     vl_logic;
+        op              : in     vl_logic_vector(5 downto 0);
+        mem_to_reg      : out    vl_logic;
+        reg_dst         : out    vl_logic;
+        i_or_d          : out    vl_logic;
+        pc_src          : out    vl_logic_vector(1 downto 0);
+        alu_src_b       : out    vl_logic_vector(1 downto 0);
+        alu_src_a       : out    vl_logic;
+        ir_write        : out    vl_logic;
+        mem_write       : out    vl_logic;
+        pc_write        : out    vl_logic;
+        branch          : out    vl_logic;
+        reg_write       : out    vl_logic;
+        alu_op          : out    vl_logic_vector(1 downto 0)
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of r_type : constant is 1;
+    attribute mti_svvh_generic_type of lw : constant is 1;
+    attribute mti_svvh_generic_type of sw : constant is 1;
+    attribute mti_svvh_generic_type of beq : constant is 1;
+    attribute mti_svvh_generic_type of addi : constant is 1;
+    attribute mti_svvh_generic_type of j : constant is 1;
+    attribute mti_svvh_generic_type of s0 : constant is 1;
+    attribute mti_svvh_generic_type of s1 : constant is 1;
+    attribute mti_svvh_generic_type of s2 : constant is 1;
+    attribute mti_svvh_generic_type of s3 : constant is 1;
+    attribute mti_svvh_generic_type of s4 : constant is 1;
+    attribute mti_svvh_generic_type of s5 : constant is 1;
+    attribute mti_svvh_generic_type of s6 : constant is 1;
+    attribute mti_svvh_generic_type of s7 : constant is 1;
+    attribute mti_svvh_generic_type of s8 : constant is 1;
+    attribute mti_svvh_generic_type of s9 : constant is 1;
+    attribute mti_svvh_generic_type of s10 : constant is 1;
+    attribute mti_svvh_generic_type of s11 : constant is 1;
+end maindec;

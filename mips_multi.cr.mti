@@ -1,0 +1,90 @@
+C:/Users/Frex/Documents/GitHub/mips_multi/aludec.v {1 {vlog -work work C:/Users/Frex/Documents/GitHub/mips_multi/aludec.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module aludec
+
+Top level modules:
+	aludec
+
+} {} {}} C:/Users/Frex/Documents/GitHub/mips_multi/memory_tb.v {1 {vlog -work work C:/Users/Frex/Documents/GitHub/mips_multi/memory_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+
+} {} {}} C:/Users/Frex/Documents/GitHub/mips_multi/alu_tb.v {1 {vlog -work work C:/Users/Frex/Documents/GitHub/mips_multi/alu_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module alu_tb
+
+Top level modules:
+	alu_tb
+
+} {} {}} C:/Users/Frex/Documents/GitHub/mips_multi/datapath.v {1 {vlog -work work C:/Users/Frex/Documents/GitHub/mips_multi/datapath.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} C:/Users/Frex/Documents/GitHub/mips_multi/imem.v {1 {vlog -work work C:/Users/Frex/Documents/GitHub/mips_multi/imem.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+
+} {} {}} C:/Users/Frex/Documents/GitHub/mips_multi/mips_multi_tb.v {1 {vlog -work work C:/Users/Frex/Documents/GitHub/mips_multi/mips_multi_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+
+} {} {}} C:/Users/Frex/Documents/GitHub/mips_multi/controller_tb.v {1 {vlog -work work C:/Users/Frex/Documents/GitHub/mips_multi/controller_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module controller_tb
+
+Top level modules:
+	controller_tb
+
+} {} {}} C:/Users/Frex/Documents/GitHub/mips_multi/register_file_tb.v {1 {vlog -work work C:/Users/Frex/Documents/GitHub/mips_multi/register_file_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+
+} {} {}} C:/Users/Frex/Documents/GitHub/mips_multi/memory.v {0 {vlog -work work C:/Users/Frex/Documents/GitHub/mips_multi/memory.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module memory
+** Error: C:/Users/Frex/Documents/GitHub/mips_multi/memory.v(18): (vlog-2884) Out of bounds access.  Bit number 31 of part-select into 'adr' is out of bounds.
+
+** Error: C:/Users/Frex/Documents/GitHub/mips_multi/memory.v(18): Register is illegal in left-hand side of continuous assignment
+** Error: C:/Users/Frex/Documents/GitHub/mips_multi/memory.v(21): (vlog-2884) Out of bounds access.  Bit number 31 of part-select into 'adr' is out of bounds.
+
+
+} {4.0 5.0 6.0 8.0} {}} C:/Users/Frex/Documents/GitHub/mips_multi/mips_multi.v {1 {vlog -work work C:/Users/Frex/Documents/GitHub/mips_multi/mips_multi.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mips_multi
+
+Top level modules:
+	mips_multi
+
+} {} {}} C:/Users/Frex/Documents/GitHub/mips_multi/dmem.v {1 {vlog -work work C:/Users/Frex/Documents/GitHub/mips_multi/dmem.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+
+} {} {}} C:/Users/Frex/Documents/GitHub/mips_multi/aludec_tb.v {1 {vlog -work work C:/Users/Frex/Documents/GitHub/mips_multi/aludec_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+
+} {} {}} C:/Users/Frex/Documents/GitHub/mips_multi/maindec_tb.v {1 {vlog -work work C:/Users/Frex/Documents/GitHub/mips_multi/maindec_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+
+} {} {}} C:/Users/Frex/Documents/GitHub/mips_multi/maindec.v {1 {vlog -work work C:/Users/Frex/Documents/GitHub/mips_multi/maindec.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module maindec
+
+Top level modules:
+	maindec
+
+} {} {}} C:/Users/Frex/Documents/GitHub/mips_multi/datapath_tb.v {1 {vlog -work work C:/Users/Frex/Documents/GitHub/mips_multi/datapath_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+
+} {} {}} C:/Users/Frex/Documents/GitHub/mips_multi/register_file.v {1 {vlog -work work C:/Users/Frex/Documents/GitHub/mips_multi/register_file.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module register_file
+
+Top level modules:
+	register_file
+
+} {} {}} C:/Users/Frex/Documents/GitHub/mips_multi/controller.v {1 {vlog -work work C:/Users/Frex/Documents/GitHub/mips_multi/controller.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}}
